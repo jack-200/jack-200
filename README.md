@@ -1,0 +1,62 @@
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Inter&size=48&center=true&vCenter=true&width=500&height=70&color=4493F8&duration=4000&lines=Hi+There!+👋;+I'm+Jack!" alt="Hi There! I'm Jack!" />
+</h1>
+
+<p align="center">
+  <b>Full-stack developer passionate about building impactful software and learning new technologies.</b>
+</p>
+
+## 🛠️ Languages and Tools
+
+<!-- High-level languages -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,lua,powershell" alt="Python, Java, Lua, PowerShell" />
+</p>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=js,ts,html,css" alt="JavaScript, TypeScript, HTML, CSS" />
+</p>
+
+<!-- Low-level languages -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c,cpp" alt="C, C++" />
+</p>
+
+<!-- Functional & logic languages -->
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=scheme,haskell,prolog" alt="Scheme, Haskell, Prolog" />
+</p>
+
+## 🌐 My Profiles
+
+<div align="center">
+  <a href="https://github.com/jack-200" target="_blank">
+    <img alt="followers" title="Follow me on GitHub" src="https://img.shields.io/github/followers/jack-200?color=236ad3&style=for-the-badge&logo=github&label=Follow"/>
+  </a>
+  <a href="https://www.linkedin.com/in/jack-liang-82a0ba237/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
+  </a>
+  <br><br>
+  <a href="https://leetcode.com/u/LeetCode67/" target="_blank">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white" alt="LeetCode Profile" />
+  </a>
+  <a href="https://www.codewars.com/users/Codewars4" target="_blank">
+    <img src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars Profile" />
+  </a>
+  <br><br>
+  <a href="https://monkeytype.com/profile/monkey499" target="_blank">
+    <img src="https://img.shields.io/badge/Monkeytype-282A36?style=for-the-badge&logo=monkeytype&logoColor=yellow&labelColor=282A36" alt="Monkeytype Profile" />
+  </a>
+</div>
+
+## ⚡️ My GitHub Statistics
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jack-200&theme=chartreuse-dark&count_private=true" alt="GitHub Streak Stats" />
+  <br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=jack-200&theme=chartreuse-dark&count_private=true&langs_count=20&card_width=500" alt="Most Used Languages"/> 
+  <br>
+  <img src="https://github-readme-stats.vercel.app/api?username=jack-200&theme=chartreuse-dark&count_private=true&show_icons=true&card_width=500&rank_icon=github&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&" alt="GitHub Stats" />
+  <br>
+  <img src="https://github-profile-trophy.vercel.app/?username=jack-200&theme=juicyfresh&column=4" alt="GitHub Profile Trophies" />
+  <br>
+</div>
