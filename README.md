@@ -2,29 +2,38 @@
   <img src="https://readme-typing-svg.herokuapp.com/?font=Inter&size=48&center=true&vCenter=true&width=500&height=70&color=4493F8&duration=4000&lines=Hi+There!+👋;+I'm+Jack!" alt="Hi There! I'm Jack!" />
 </h1>
 
+<div align="center">
+  <img src="hero-banner.svg" alt="Imagine. Code. Create." />
+</div>
+
 <p align="center">
   <b>Full-stack developer passionate about building impactful software and learning new technologies.</b>
 </p>
 
 ## 🛠️ Languages and Tools
 
-<!-- High-level languages -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,lua,powershell" alt="Python, Java, Lua, PowerShell" />
-</p>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,html,css" alt="JavaScript, TypeScript, HTML, CSS" />
-</p>
-
-<!-- Low-level languages -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c,cpp" alt="C, C++" />
-</p>
-
-<!-- Functional & logic languages -->
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=scheme,haskell,prolog" alt="Scheme, Haskell, Prolog" />
-</p>
+<table>
+  <tr>
+    <td valign="top"><strong>High-Level & Scripting</strong></td>
+    <td><img src="https://skillicons.dev/icons?i=python,java,lua,powershell" alt="Python, Java, Lua, PowerShell" /></td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>Web Development</strong></td>
+    <td><img src="https://skillicons.dev/icons?i=js,ts,html,css" alt="JavaScript, TypeScript, HTML, CSS" /></td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>Low-Level</strong></td>
+    <td><img src="https://skillicons.dev/icons?i=c,cpp" alt="C, C++" /></td>
+  </tr>
+  <tr>
+    <td valign="top"><strong>Functional & Logic</strong></td>
+    <td>
+      <img src="https://img.shields.io/badge/Scheme-000000?style=for-the-badge&logo=scheme&logoColor=white" alt="Scheme"/>
+      <img src="https://img.shields.io/badge/Haskell-5e5185?style=for-the-badge&logo=haskell&logoColor=white" alt="Haskell"/>
+      <img src="https://img.shields.io/badge/Prolog-424242?style=for-the-badge" alt="Prolog"/>
+    </td>
+  </tr>
+</table>
 
 ## 🌐 My Profiles
 
