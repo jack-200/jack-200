@@ -1,38 +1,105 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="1120" height="140" preserveAspectRatio="xMidYMid meet">
-<defs>
-  <linearGradient id="rgbGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-    <stop offset="0%" stop-color="#ff0000">
-      <animate attributeName="stop-color" values="#ff0000;#00ff00;#0000ff;#ff0000" dur="6s" repeatCount="indefinite"/>
-    </stop>
-    <stop offset="50%" stop-color="#00ff00">
-      <animate attributeName="stop-color" values="#00ff00;#0000ff;#ff0000;#00ff00" dur="6s" repeatCount="indefinite"/>
-    </stop>
-    <stop offset="100%" stop-color="#0000ff">
-      <animate attributeName="stop-color" values="#0000ff;#ff0000;#00ff00;#0000ff" dur="6s" repeatCount="indefinite"/>
-    </stop>
-  </linearGradient>
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1200 180"
+  width="800"
+  height="120"
+>
+  <defs>
+    <linearGradient id="rgbGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0000">
+        <animate
+          attributeName="stop-color"
+          values="#ff0000;#00ff00;#0000ff;#ff0000"
+          dur="6s"
+          repeatCount="indefinite"
+        />
+      </stop>
+      <stop offset="50%" stop-color="#00ff00">
+        <animate
+          attributeName="stop-color"
+          values="#00ff00;#0000ff;#ff0000;#00ff00"
+          dur="6s"
+          repeatCount="indefinite"
+        />
+      </stop>
+      <stop offset="100%" stop-color="#0000ff">
+        <animate
+          attributeName="stop-color"
+          values="#0000ff;#ff0000;#00ff00;#0000ff"
+          dur="6s"
+          repeatCount="indefinite"
+        />
+      </stop>
+    </linearGradient>
 
-  <mask id="glareMask">
-    <rect x="-200" y="0" width="150" height="180" fill="white" transform="skewX(-20)">
-      <animate 
-          attributeName="x" 
-          from="-200" 
-          to="1200" 
-          dur="4s" 
-          repeatCount="indefinite" />
-    </rect>
-  </mask>
-</defs>
+    <mask id="glareMask">
+      <rect
+        x="-200"
+        y="0"
+        width="150"
+        height="180"
+        fill="white"
+        transform="skewX(-20)"
+      >
+        <animate
+          attributeName="x"
+          from="-200"
+          to="1200"
+          dur="4s"
+          repeatCount="indefinite"
+        />
+      </rect>
+    </mask>
+  </defs>
 
-<rect x="6" y="26" rx="12" ry="12" width="1188" height="128" fill="none" stroke="url(#rgbGrad)" stroke-width="12" />
-<rect x="18" y="40" rx="8" ry="8" width="1164" height="100" fill="none" stroke="url(#rgbGrad)" stroke-width="4" opacity="0.35" />
+  <rect
+    x="6"
+    y="26"
+    rx="12"
+    ry="12"
+    width="1188"
+    height="128"
+    fill="none"
+    stroke="url(#rgbGrad)"
+    stroke-width="12"
+  />
+  <rect
+    x="18"
+    y="40"
+    rx="8"
+    ry="8"
+    width="1164"
+    height="100"
+    fill="none"
+    stroke="url(#rgbGrad)"
+    stroke-width="4"
+    opacity="0.35"
+  />
 
-<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, sans-serif" font-size="60" font-weight="bold" fill="#AAAAAA">
+  <text
+    x="50%"
+    y="50%"
+    dominant-baseline="middle"
+    text-anchor="middle"
+    font-family="Inter, sans-serif"
+    font-size="60"
+    font-weight="bold"
+    fill="#AAAAAA"
+  >
     Imagine. Code. Create.
-</text>
+  </text>
 
-<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, sans-serif" font-size="60" font-weight="bold" fill="#FFFFFF" mask="url(#glareMask)">
+  <text
+    x="50%"
+    y="50%"
+    dominant-baseline="middle"
+    text-anchor="middle"
+    font-family="Inter, sans-serif"
+    font-size="60"
+    font-weight="bold"
+    fill="#FFFFFF"
+    mask="url(#glareMask)"
+  >
     Imagine. Code. Create.
-</text>
-
+  </text>
 </svg>

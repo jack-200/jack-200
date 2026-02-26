@@ -1,0 +1,155 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 600 120"
+  width="800"
+  height="160"
+>
+  <defs>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap");
+      .bg {
+        fill: #060f19;
+        stroke: rgba(0, 255, 204, 0.3);
+        stroke-width: 2;
+      }
+      .text {
+        font-family: "Share Tech Mono", monospace;
+        font-size: 20px;
+        fill: #00ffcc;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        letter-spacing: 2px;
+        filter: drop-shadow(0 0 8px rgba(0, 255, 204, 0.6));
+      }
+      .btn-bg {
+        fill: rgba(0, 255, 204, 0.15);
+        stroke: #00ffcc;
+        stroke-width: 2;
+        animation: pulse 2s infinite ease-in-out;
+      }
+      .btn-text {
+        font-family: "Share Tech Mono", monospace;
+        font-size: 18px;
+        fill: #ffffff;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        font-weight: bold;
+        letter-spacing: 3px;
+        filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+      }
+      .cursor {
+        animation: blink 1s step-end infinite;
+      }
+      @keyframes blink {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+      }
+      @keyframes pulse {
+        0% {
+          filter: drop-shadow(0 0 5px rgba(0, 255, 204, 0.4));
+          transform: scale(1);
+          transform-origin: center;
+        }
+        50% {
+          filter: drop-shadow(0 0 15px rgba(0, 255, 204, 0.8));
+          transform: scale(1.02);
+          transform-origin: center;
+          stroke-width: 3;
+        }
+        100% {
+          filter: drop-shadow(0 0 5px rgba(0, 255, 204, 0.4));
+          transform: scale(1);
+          transform-origin: center;
+        }
+      }
+      .glitch1 {
+        animation: glitch 5s infinite linear alternate-reverse;
+      }
+      @keyframes glitch {
+        0%,
+        90% {
+          transform: translate(0, 0);
+        }
+        92% {
+          transform: translate(-2px, 1px);
+          fill: #ff00ff;
+        }
+        94% {
+          transform: translate(2px, -1px);
+          fill: #ffeb3b;
+        }
+        96% {
+          transform: translate(-1px, 2px);
+          fill: #00ffcc;
+        }
+        98% {
+          transform: translate(1px, -2px);
+          fill: #ff00ff;
+        }
+        100% {
+          transform: translate(0, 0);
+        }
+      }
+    </style>
+  </defs>
+
+  <rect x="2" y="2" width="596" height="116" rx="4" class="bg" />
+
+  <path d="M 1 15 L 1 1 L 15 1" fill="none" stroke="#00ffcc" stroke-width="2" />
+  <path
+    d="M 585 1 L 599 1 L 599 15"
+    fill="none"
+    stroke="#00ffcc"
+    stroke-width="2"
+  />
+  <path
+    d="M 1 105 L 1 119 L 15 119"
+    fill="none"
+    stroke="#00ffcc"
+    stroke-width="2"
+  />
+  <path
+    d="M 585 119 L 599 119 L 599 105"
+    fill="none"
+    stroke="#00ffcc"
+    stroke-width="2"
+  />
+
+  <text x="300" y="35" class="text glitch1" style="font-size: 16px">
+    &gt; SYSTEM.ROUTING("jack-200.github.io")
+    <tspan class="cursor">_</tspan>
+  </text>
+
+  <g>
+    <rect x="40" y="60" width="520" height="42" rx="4" class="btn-bg" />
+    <text
+      x="300"
+      y="83"
+      class="btn-text"
+      style="pointer-events: none; font-size: 22px; fill: #00ffcc"
+    >
+      [ VIEW PORTFOLIO WEBSITE ]
+    </text>
+    <path
+      d="M 60 73 L 70 81 L 60 89"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="3"
+      opacity="0.8"
+      style="animation: pulse 2s infinite ease-in-out"
+    />
+    <path
+      d="M 540 73 L 530 81 L 540 89"
+      fill="none"
+      stroke="#ffffff"
+      stroke-width="3"
+      opacity="0.8"
+      style="animation: pulse 2s infinite ease-in-out"
+    />
+  </g>
+</svg>
