@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Inter&size=48&center=true&vCenter=true&width=800&height=70&color=4493F8&duration=4000&lines=Hi+There!+👋;+I'm+Jack!" alt="Hi There! I'm Jack!" />
+  <img src="typing-animation.svg" alt="Hi There! I'm Jack!" />
 </h1>
 
 &nbsp;

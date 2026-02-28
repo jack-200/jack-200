@@ -1,0 +1,68 @@
+<!-- https://github.com/DenverCoder1/readme-typing-svg/ -->
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  viewBox="0 0 800 70"
+  style="background-color: #00000000"
+  width="800px"
+  height="70px"
+>
+  <defs>
+    <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color: #00d4ff; stop-opacity: 1" />
+      <stop offset="20%" style="stop-color: #00b8a0; stop-opacity: 1" />
+      <stop offset="40%" style="stop-color: #0080ff; stop-opacity: 1" />
+      <stop offset="60%" style="stop-color: #0040ff; stop-opacity: 1" />
+      <stop offset="80%" style="stop-color: #4000ff; stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: #6000d0; stop-opacity: 1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Text 1: "Hi There! 👋" -->
+  <path id="path0">
+    <animate
+      id="d0"
+      attributeName="d"
+      begin="0s;d1.end"
+      dur="4000ms"
+      fill="remove"
+      values="m0,35 h0 ; m0,35 h800 ; m0,35 h800 ; m0,35 h0"
+      keyTimes="0;0.8;0.8;1"
+    />
+  </path>
+  <text
+    font-family='system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif'
+    fill="url(#rainbow)"
+    font-size="48"
+    dominant-baseline="middle"
+    x="50%"
+    text-anchor="middle"
+    letter-spacing="normal"
+  >
+    <textPath xlink:href="#path0">Hi There! 👋</textPath>
+  </text>
+
+  <!-- Text 2: "I'm Jack!" -->
+  <path id="path1">
+    <animate
+      id="d1"
+      attributeName="d"
+      begin="d0.end"
+      dur="4000ms"
+      fill="remove"
+      values="m0,35 h0 ; m0,35 h800 ; m0,35 h800 ; m0,35 h0"
+      keyTimes="0;0.8;0.8;1"
+    />
+  </path>
+  <text
+    font-family='system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif'
+    fill="url(#rainbow)"
+    font-size="48"
+    dominant-baseline="middle"
+    x="50%"
+    text-anchor="middle"
+    letter-spacing="normal"
+  >
+    <textPath xlink:href="#path1">I&#039;m Jack!</textPath>
+  </text>
+</svg>
